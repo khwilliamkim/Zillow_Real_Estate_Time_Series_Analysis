@@ -71,7 +71,16 @@ Time series provide the opportunity to predict/forecast future values based on p
 
 Prices seem to have peaked before the 2008 recession, only to see a dramatic fall immediately after. Since then, prices have been steadily on the rise since 2012 but have yet to reach their pre-recession peaks.
 
-#### 6. (S)ARIMA Model
+##### 6. Model #1. Autoregression
+##### 7. Model #2. AR(2)
+##### 8. Model #3. Moving Average
+##### 9. Model #4. MA(2)
+##### 10. Model #5. ARIMA
+##### 11. Model #6. SARIMA
+##### 12. Model #7. SARIMA with one zipcode
+##### 13. Model #8. SARIMA with five zipcodes
+
+#### 6. Model #9. (S)ARIMA Model with all zipcodes
 We want to build a Time Series model to predict the future ROI for each zip code in Nassau County that would fit our client's budget. But first, we will select 5 specific zipcode to build our time series model on. For this purpose, we decided to use the highest growing zipcode since 2012.
 
 * Initial Model using 5 Sample Zipcodes
